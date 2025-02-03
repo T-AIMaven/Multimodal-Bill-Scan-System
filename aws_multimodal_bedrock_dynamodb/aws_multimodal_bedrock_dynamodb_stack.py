@@ -108,6 +108,7 @@ class ImageProcessingStack(Stack):
             resources=[table.table_arn]
         ))
         
+        
         # Add inline policy to the Lambda role
         lambda_role_sqs.add_to_policy(iam.PolicyStatement(
             sid="VisualEditor1",
