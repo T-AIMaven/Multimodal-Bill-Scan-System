@@ -4,10 +4,6 @@
 <img width="811" alt="bedrock-dynamo" src="https://github.com/user-attachments/assets/8e25a02e-653e-439a-a201-a0d41f75c6f5">
 </p>
 
-This repository contains a full multimodal application using AWS CDK as IaC, Claude 3 Sonnet as multimodal model, and DynamoDB as storage.
-
-For detailed project descriptions, refer to this [Medium article](https://medium.com/@benitomartin/multimodal-bill-scan-system-with-claude-sonnet-3-aws-cdk-bedrock-dynamodb-0f6d0b6d46f2).
-
 Main Steps
 
 - **Data Ingestion**: Load data to an S3 Bucket
