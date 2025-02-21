@@ -24,6 +24,7 @@ def lambda_handler(event, context):
         if not object_key.lower().endswith(('.png')):
             logger.info(f"Skipping non-image file: {object_key}")
             return
+        
 
         image_data = s3.get_object(Bucket=bucket_name, Key=object_key)['Body'].read()
         base64_image = base64.b64encode(image_data).decode('utf-8')
