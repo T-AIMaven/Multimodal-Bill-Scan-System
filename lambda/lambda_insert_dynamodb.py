@@ -18,6 +18,7 @@ def lambda_handler(event, context):
         logger.error("No records found in the event")
         return {'statusCode': 400, 'body': json.dumps('No records in the event')}
 
+
     for record in event['Records']:
         try:
             # Parse the SQS message
