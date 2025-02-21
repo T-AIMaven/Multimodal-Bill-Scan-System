@@ -8,4 +8,5 @@ app = cdk.App()
 ImageProcessingStack(app, "ImageProcessingStack",
     )
 
+
 app.synth()
